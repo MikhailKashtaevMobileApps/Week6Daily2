@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivAuthorImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvAuthorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the name of the book"/>
+
+        <TextView
+            android:id="@+id/tvAuthorAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the author"
+            android:textSize="10sp"
+            android:gravity="right"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
